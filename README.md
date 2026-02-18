@@ -63,3 +63,8 @@ The workflow can be triggered in two ways:
 - **Traceability**: All deployments are tracked in GitHub
 - **Simplicity**: Minimal workflow configuration with maximum safety
 - **Flexibility**: Can be extended with additional environments or validation steps
+
+## Random checklist
+
+- [ ] Test 1
+- [ ] Test 2
