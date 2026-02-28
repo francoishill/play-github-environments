@@ -1,0 +1,15 @@
+name: Cleanup Preview Environment
+
+on:
+  delete:
+
+jobs:
+  cleanup-branch:
+    if: github.event.ref_type == 'branch'
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Extract and sanitize branch name
+      id: branch
+      run: |
+        echo Cleanup for branch: ${{ github.ref }}
